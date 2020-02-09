@@ -1,7 +1,6 @@
 import { createStore } from "redux";
+import listReducers from "../reducers";
 
-const reducer = () => {};
-
-const store = createStore(reducer);
+const store = createStore(listReducers);
 
 export default store;
