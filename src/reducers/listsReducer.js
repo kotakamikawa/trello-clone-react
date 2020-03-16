@@ -1,7 +1,7 @@
 import { CONSTANTS } from "../actions";
 
-let listID = 2;
-let cardID = 5;
+let listID = 3;
+let cardID = 6;
 
 const initialState = [
   {
@@ -23,11 +23,25 @@ const initialState = [
     id: `list-${1}`,
     cards: [
       {
-        id: `card-${3}`,
+        id: `card-${2}`,
         text: "TypeScript勉強"
+      }
+    ]
+  },
+  {
+    title: "完了",
+    id: `list-${2}`,
+    cards: [
+      {
+        id: `card-${3}`,
+        text: "Redux勉強"
       },
       {
         id: `card-${4}`,
+        text: "Twilio勉強"
+      },
+      {
+        id: `card-${5}`,
         text: "ブログ書く"
       }
     ]

@@ -37,7 +37,7 @@ class App extends Component {
     return (
       <DragDropContext onDragEnd={this.onDragEnd}>
         <div>
-          <h2>hello</h2>
+          <h2>やることリスト</h2>
           <Droppable droppableId="all-lists" direction="horizontal" type="list">
             {provided => (
               <ListContatiner
