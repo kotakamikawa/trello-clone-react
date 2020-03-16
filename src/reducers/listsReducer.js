@@ -5,30 +5,30 @@ let cardID = 5;
 
 const initialState = [
   {
-    title: "Last Episode",
+    title: "未着手",
     id: `list-${0}`,
     cards: [
       {
         id: `card-${0}`,
-        text: "ありがとうおいうございますよろしくお願います"
+        text: "英語勉強"
       },
       {
         id: `card-${1}`,
-        text: "よろしくお願います"
+        text: "Reactでアプリ作成"
       }
     ]
   },
   {
-    title: "This Episode is Second",
+    title: "処理中",
     id: `list-${1}`,
     cards: [
       {
         id: `card-${3}`,
-        text: "Thank you"
+        text: "TypeScript勉強"
       },
       {
         id: `card-${4}`,
-        text: "I had to do many things"
+        text: "ブログ書く"
       }
     ]
   }
